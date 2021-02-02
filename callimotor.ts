@@ -11,9 +11,8 @@
 
 
 //% weight=100 color=#0080FF  icon="\uf207"
-//% block="CalliMotor" 
 //% groups='["Motor","Stepper"]'
-
+//% block="CalliMotor"
 namespace motor {
     const PCA9685_ADDRESS = 0x40
     const MODE1 = 0x00
@@ -65,7 +64,6 @@ namespace motor {
         //% block="28"
         Ste2 = 2
     }
-
 
     /**
      * The user selects the 4-way dc motor.
@@ -151,7 +149,6 @@ namespace motor {
         pins.i2cWriteBuffer(PCA9685_ADDRESS, buf3);
     }
 
-
     function setStepper_28(index: number, dir: boolean): void {
         if (index == 1) {
             if (dir) {
@@ -180,7 +177,6 @@ namespace motor {
         }
     }
 
-
     function setStepper_42(index: number, dir: boolean): void {
         if (index == 1) {
             if (dir) {
@@ -208,7 +204,6 @@ namespace motor {
             }
         }
     }
-
 
     /**
 	 * Execute a motor
@@ -297,7 +292,6 @@ namespace motor {
             motorStop(3)
             motorStop(4)
         }
-        //setFreq(50);
     }
 
     /**
@@ -346,7 +340,6 @@ namespace motor {
             motorStop(3)
             motorStop(4)
         }
-        //setFreq(50);
     }
 
     /**

@@ -1,13 +1,12 @@
 {
     "motor.Dir.CW|block": "Uhrzeigersinn",
     "motor.Dir.CCW|block": "Gegenuhrzeigersinn",
-    "motor.RunMotors|block": "Motoren|%index|Geschwindigkeit|%speed|\\%",
-    "motor.MotorRun|block": "Motor|%index|Geschwindigkeit|%speed|\\%",
+    "motor.RunMotors|block": "Motoren|%index|an mit|%speed|\\%",
+    "motor.MotorRun|block": "Motor|%index|an mit|%speed|\\%",
     "motor.stepperDegree_42|block": "Stepper 42|%index|im|%direction|Grad|%degree|°",
     "motor.stepperTurn_42|block": "Stepper 42|%index| im |%direction|drehe|%turn",
     "motor.stepperDegree_28|block": "Stepper 28|%index| im |%direction| Grad |%degree|°",
     "motor.stepperTurn_28|block": "Stepper 28|%index| im |%direction|drehe|%turn",
     "motor.motorStop|block": "Stoppe Motor|%index",
-    "motor.motorStopAll|block": "Stoppe alle Motoren",
-    "{id:category}motor.FT-Motor": "Fischertechnik"
+    "motor.motorStopAll|block": "Stoppe alle Motoren"
 }

@@ -1,1 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="z`b@6wde*c#X.zeSO]U:" x="0" y="0"><statement name="HANDLER"><block type="motor_RunMotors" id=".#i5|@vm:9AJLun4sdI5"><field name="index">motor.Steppers.M1_M2</field><value name="speed"><shadow type="speedPicker" id=":/m)jLj#S%E@jN,Q(2-9"><field name="speed">-34</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="ee5L]!.w?ngc+-0yUv]H" x="0" y="0"/></xml>
