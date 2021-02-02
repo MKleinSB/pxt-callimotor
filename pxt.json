@@ -9,7 +9,8 @@
         "README.md",
         "main.blocks",
         "main.ts",
-        "callimotor.ts"
+        "callimotor.ts",
+        "_locales/de/pxt-callimotor-strings.json"
     ],
     "testFiles": [
         "test.ts"
