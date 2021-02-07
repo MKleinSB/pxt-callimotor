@@ -20,9 +20,9 @@ Um dieses Repository in MakeCode zu bearbeiten.
 * klicke auf **Importieren** und dann auf **Importiere URL**
 * füge **https://github.com/mkleinsb/pxt-callimotor** ein und klicke auf Importieren
 
-## BProjekt auf Upverter
+## Projekt auf Upverter
 
-<iframe width='800' height='600' frameborder='0' scrolling='no' src='http://upverter.com/eda/embed/#designId=75d4b1a839e6c9b9'></iframe>
+http://upverter.com/eda/embed/#designId=75d4b1a839e6c9b9
 
 
 #### Metadaten (verwendet für Suche, Rendering)
