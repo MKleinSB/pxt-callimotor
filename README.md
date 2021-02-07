@@ -20,12 +20,10 @@ Um dieses Repository in MakeCode zu bearbeiten.
 * klicke auf **Importieren** und dann auf **Importiere URL**
 * füge **https://github.com/mkleinsb/pxt-callimotor** ein und klicke auf Importieren
 
-## Blockvorschau
+## BProjekt auf Upverter
 
-Dieses Bild zeigt den Blockcode vom letzten Commit im Master an.
-Die Aktualisierung dieses Bildes kann einige Minuten dauern.
+<iframe width='800' height='600' frameborder='0' scrolling='no' src='http://upverter.com/eda/embed/#designId=75d4b1a839e6c9b9'></iframe>
 
-![Eine gerenderte Ansicht der Blöcke](https://github.com/mkleinsb/pxt-callimotor/raw/master/.github/makecode/blocks.png)
 
 #### Metadaten (verwendet für Suche, Rendering)
 
