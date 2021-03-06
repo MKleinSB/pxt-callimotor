@@ -11,7 +11,7 @@
 
 
 //% weight=100 color=#0080FF  icon="\uf207"
-//% groups='["Motor","Stepper"]'
+//% groups='["Motor","Servos","Stepper"]'
 //% block="CalliMotor"
 namespace motor {
     const PCA9685_ADDRESS = 0x40
@@ -73,6 +73,13 @@ namespace motor {
         M2 = 0x2,
         M3 = 0x3,
         M4 = 0x4
+    }
+   /**
+     * The user can select the 2 steering gear controller.
+     */
+    export enum Servos {
+        S1 = 0x01,
+        S2 = 0x02
     }
 
     /**
@@ -204,6 +211,29 @@ namespace motor {
             }
         }
     }
+
+
+    /**
+	 * Steering gear control function.
+     * S1 & S2.
+     * 0°~180°.
+	*/
+    //% blockId=motor_servo block="Set Servo|%index|to|%degree|°"
+    //% weight=100
+    //% degree.min=0 degree.max=180
+    //% degree.shadow="protractorPicker"
+    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=4
+    //% group="Servos"
+    export function servo(index: Servos, degree: number): void {
+        if (!initialized) {
+            initPCA9685()
+        }
+        // 50hz
+        let v_us = (degree * 1800 / 180 + 600) // 0.6ms ~ 2.4ms
+        let value = v_us * 4096 / 20000
+        setPwm(index + 7, 0, value)
+    }
+
 
     /**
 	 * Execute a motor
