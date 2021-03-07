@@ -6,7 +6,9 @@ https://www.hackster.io/MKlein/callimotor-4-fach-i2c-motortreiber-fur-calliope-m
 
 http://upverter.com/eda/embed/#designId=75d4b1a839e6c9b9
 
+### Prototyp
 ![Prototyp](https://github.com/MKleinSB/pxt-callimotor/blob/master/CalliMotor.png)
+### Miniserie mit zwei zusätzlichen 3Volt Servoports (z.B. Geekservo)
 ![Serienplatine](https://github.com/MKleinSB/pxt-callimotor/blob/master/Callimotor_13.png)
 
 ## Als Erweiterung verwenden
