@@ -1,6 +1,6 @@
 {
     "name": "pxt-callimotor",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Erweiterung für die Calliope mini I2C CalliMotor Platine",
     "dependencies": {
         "core": "*"
